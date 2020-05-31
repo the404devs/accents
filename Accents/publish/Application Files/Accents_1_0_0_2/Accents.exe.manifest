@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Accents.exe" version="1.0.0.2" publicKeyToken="595631d055d50007" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="favicon (4).ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Accents" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Accents.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Accents.exe" size="270848">
+      <assemblyIdentity name="Accents" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>dWldCcje7hTheVUuarCKOXmgV45dsn4juutXiZMM1MY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Accents.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="favicon (4).ico" size="119571">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1AeDNwwDf8mjG+Y6CCWvNon020S8CBQh690dB5ZD/IA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Glen-PC\Owen" issuerKeyHash="900d20e69aa54dd6ded89ed44dba4b2897a173a4" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>L6d85NwGgHcTWGpHFD/d9QwfdF5QLd19uwfd1biO7os=</DigestValue></Reference></SignedInfo><SignatureValue>iv3se6jiIKDa/iI6RDthRoaeL1PitM+EsqjycMb3q8G6LbJ16ZtKiSyMnXYzECP2XghkAB8r914Fk2ygp6hgY66b6ghpZk0T2lfEYvNPGTlAApdx271ZllwXMaFLklXcZT1uveo4e1QwX5sSRiOtlsRkThTA/RpE5CCR703ZzjM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0Yygiivu7+v+nzPrvg31gHpnFoia5k9OQGAepB7UJ8AkSAgswsCOUPdFRLtbnyMBuYFcQpadJOuYIUkbY0ccjF1/WbYpoxDc8cZRt6/bWegKLluxoKVm/qKnv4UuO/dqv3vN9bf0+6csm9jDTsrBEcpkACEQ5tm0x8TyulUAnyc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8bee8eb8d5dd07bb7ddd2d505e741f0cf5dd3f14476a5813778006dce47ca72f" Description="" Url=""><as:assemblyIdentity name="Accents.exe" version="1.0.0.2" publicKeyToken="595631d055d50007" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Glen-PC\Owen</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>B/ax+5/+XiaAOqvPQDzt1yiWmHiLRWSC/no/O3tQ3e0=</DigestValue></Reference></SignedInfo><SignatureValue>prvdmW/HGlDIhfh5+5PWXGuaNd6+7Cal3TipeWrXrlLdPYNDAjxRItRqNY86A4az1G4CLznJ/gWMiE75WBTfiIVsV8U8ggRcbfkmHBXkpkR22O45ib4+bqBAI5l9rOQWdYJzA+oPeHJXmNza2HeudXo2eAo6edb89cS00TozD6g=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0Yygiivu7+v+nzPrvg31gHpnFoia5k9OQGAepB7UJ8AkSAgswsCOUPdFRLtbnyMBuYFcQpadJOuYIUkbY0ccjF1/WbYpoxDc8cZRt6/bWegKLluxoKVm/qKnv4UuO/dqv3vN9bf0+6csm9jDTsrBEcpkACEQ5tm0x8TyulUAnyc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQZUpN3vbYg7hJuuiOl+CLejANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgARwBsAGUAbgAtAFAAQwBcAE8AdwBlAG4wHhcNMTcxMTA3MDAwMDM2WhcNMTgxMTA3MDYwMDM2WjAjMSEwHwYDVQQDHhgARwBsAGUAbgAtAFAAQwBcAE8AdwBlAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANGMoIor7u/r/p8z674N9YB6ZxaImuZPTkBgHqQe1CfAJEgILMLAjlD3RUS7W58jAbmBXEKWnSTrmCFJG2NHHIxdf1m2KaMQ3PHGUbev21noCi5bsaClZv6ip7+FLjv3ar97zfW39PunLJvYw07KwRHKZAAhEObZtMfE8rpVAJ8nAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAHOHFzc2wxR/gS/vDgKA6CdyAPsjw23yBXIjLPsKwrGlhk003xwXP5RuYCwMXWNIg7sSpnJm8/M2U4l8bYHXU6p0ZkVFLlXQ2v0d+P38Tt9eHapa+opZEUzqto/RNSXIzXFiHg0O3egPklH57fjjNiq47nXZvNhm38NQ1c9gt+SI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
